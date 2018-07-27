@@ -71,8 +71,6 @@ public class FutureExample {
                 e.printStackTrace();
             }
         }
-
-
         System.out.println("Task is completed, lets check result ....");
         long factorial =(Long)future.get();
         System.out.println("Factorial of 10 is :"+ factorial);
